@@ -52,15 +52,56 @@ section#virtual
 				img.responsive-img(src="./client/image/sliced/vr.png")
 
 
-section#pilots.colored-bg.white-text
+section#pilots.colored-bg.white-text(style="padding: 25px 0px;")
 	.container
 		.row
-			.col.s12.m6
-				h1 Meet the Pilots
-				h3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed iaculis sapien. Mauris semper maximus massa iaculis luctus. 
-			.col.s12.m6
-section#projects
-section#contact
+			.col.s12.m10.valign-wrapper
+				.valign(style="padding-right: 90px;")
+					h1 Meet the Pilots
+					h3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed iaculis sapien. Mauris semper maximus massa iaculis luctus. 
+			.col.s12.m2
+				img.responsive-img(src="./client/image/sliced/pie.png")
+				img.responsive-img(src="./client/image/sliced/Pencil.png")
+				img.responsive-img(src="./client/image/sliced/Computer.png")
+
+section#projects.colored-bg.white-text
+	.container
+		h1.white-text(style="margin-top: 0px;") Projects
+		.row(style="margin-bottom: 0px;")
+			.col.s12.m4
+				img.responsive-img(src="./client/image/sliced/pals.png")
+				img.responsive-img(src="./client/image/sliced/omw.png")
+			.col.s12.m8.valign-wrapper
+				.valign
+					h3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed iaculis sapien. Mauris semper maximus massa iaculis luctus. 
+section#contact.colored-bg
+	.container
+		h3.white-text.center-align Let's Get In Touch!
+		h4.white-text.center-align.
+			<i class="material-icons">phone</i>
+			407-906-3034
+		.row(style="margin-bottom:0px;")
+			.form.col.s12.m12
+				.row
+					.col.s10.m10.offset-s1.offset-m1.input-field
+						input#name(type="text")
+						label(for="name") Name
+				.row
+					.col.s10.m10.offset-s1.offset-m1.input-field
+						input#email(type="text")
+						label(for="email") Email
+				.row
+					.col.s10.m10.offset-s1.offset-m1.input-field
+						input#phone(type="text")
+						label(for="phone") Phone
+				.row
+					.col.s10.m10.offset-s1.offset-m1.input-field
+						textarea#message.materialize-textarea
+						label(for="message") Message
+				.row
+					.col.s10.m10.offset-s1.offset-m1.input-field
+						.btn Submit
+
 
 
 

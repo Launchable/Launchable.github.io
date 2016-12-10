@@ -50,6 +50,31 @@ nav {
 	}
 }
 
+#pilots {
+	img {
+		margin: 20px 0px;
+	}
+}
+
+#projects {
+	img {
+		margin: 10px;
+	}
+}
+
+#contact {
+	padding-top: 25px;
+	h3 {
+		background-color: rgba(230, 126, 34,1.0);
+		padding: 15px;
+	}
+	input {
+		color: white;
+	}
+	textarea {
+		color: white;
+	}
+}
 .colored-text {
 	color: $colored-text;
 }
