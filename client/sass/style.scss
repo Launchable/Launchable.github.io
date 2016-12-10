@@ -1,0 +1,69 @@
+* {
+	// outline: red 1px dotted;
+}
+
+$colored-text: rgba(44, 62, 80,0.8);
+
+body {
+	background: #ededed;
+}
+
+nav {
+	position: absolute;
+	background: rgba(52, 73, 94,0.2) !important;
+	border-bottom: white solid 3px;
+	padding: 0px 30px;
+}
+
+#main {
+	height: 648px;
+	background-image: url("../../client/image/sliced/background.png");
+	text-align: center;
+	img.logo {
+		margin-top: 180px;
+	}
+	img.arrow {
+		margin-top: 90px;
+	}
+}
+
+#images {
+	margin-top: 20px;
+}
+
+#about {
+	p {
+		font-size: 33px;
+		padding: 0 15px;
+		color: $colored-text;
+	}
+}
+
+#steps{
+	h1{
+		position: absolute;
+		width: 10%;
+		margin: 0px 30%;
+	}
+	h3{
+		color: $colored-text;
+	}
+}
+
+.colored-text {
+	color: $colored-text;
+}
+
+.colored-bg {
+	background: rgba(45,45,45,1.0);
+}
+
+.white-text {
+	color: white;
+}
+
+@media (min-width: 600px){
+	.row{
+		display: flex;
+	}
+}
